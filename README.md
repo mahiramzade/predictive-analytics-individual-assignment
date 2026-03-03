@@ -32,7 +32,7 @@ To execute the notebook without a browser (e.g. on a server or for CI):
 jupyter nbconvert --to notebook --execute main.ipynb --inplace
 ```
 
-Expected runtime: 3–15 minutes depending on hardware (the cKDTree spatial join is the bottleneck).
+Expected runtime: 5–15 minutes depending on hardware (the cKDTree spatial join is the bottleneck).
 
 ## Project Structure
 
@@ -70,7 +70,7 @@ Expected runtime: 3–15 minutes depending on hardware (the cKDTree spatial join
 
 ## Data
 
-Both datasets are publicly available on Kaggle under CC0 license. See [DATA_ACCESS.md](DATA_ACCESS.md) for download instructions.
+Both datasets are publicly available on Kaggle under CC0 license.
 
 | Dataset | File | Size | Source |
 |---------|------|------|--------|
